@@ -30,6 +30,10 @@
     justify-content: space-between;
     gap: 185px;
 }
+.logo{
+    align-items: center;
+    gap: 30px;
+}
 .nav-content{
     align-items: center;
     gap: 20px;
@@ -105,6 +109,83 @@
     width: 640px;
     height: 331px;
  }
+
+
+ /* curriculum style */
+.curriculum{
+    width: 90%;
+    margin: 100px auto;
+}
+
+.curriculum-title{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top:100px;
+}
+.card{
+  padding: 52px 40px;
+  width: 370px;
+  height: 300px;
+  text-align: center;
+  border-radius: 19px;
+}
+.card-box{
+    gap: 28px;
+}
+.card-1{
+    background:linear-gradient(180deg,rgba(222, 245, 255, 1),rgba(255, 255, 255, 0)) ;
+}
+.card-2{
+    background: linear-gradient(180deg,rgba(255, 244, 220, 1),rgba(255, 255, 255, 0));
+}
+.card-3{
+    background: linear-gradient(180deg,rgba(238, 225, 255, 1),rgba(255, 255, 255, 0));
+}
+.card .card-title{
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: rgba(32, 32, 32, 1);
+   /* margin-top: 32px; */
+   margin-bottom: 32px;
+}
+.card .card-description{
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 33px;
+
+}
+.card img{
+    height: 136px;
+    width: 136px;
+    /* margin: 50px 115px; */
+}
+.card-foot{
+    font-weight: 800;
+    font-size: 0.95rem;
+    margin-bottom: 50px;
+}
+#card-foot-1{
+  color: rgba(100, 200, 255, 1);
+}
+#card-foot-2{
+    color: rgba(240, 170, 0, 1);
+}
+#card-foot-3{
+    color: rgba(135, 0, 255, 1);
+}
+.box-foot-img{
+    text-align: center;
+    margin: 100px auto ;
+  
+    background-color: none;
+}
+.foot-img{
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
 
 /* responsive media  */
 @media screen  and(max-width:576px){

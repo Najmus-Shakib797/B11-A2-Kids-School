@@ -469,4 +469,13 @@ li{
   .f-third{
     padding-top: 60px;
   }
+  .f-description{
+    margin-top: 30px;
+  }
+  li{
+    margin: 10px 0;
+ }
+ .f-third-title{
+    margin-bottom: 20px ;
+ }
 }

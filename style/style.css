@@ -92,6 +92,12 @@ img{
     font-weight: 700;
     font-size: 1.25rem;
 }
+.bars-3{
+    width: 30px;
+    height: 30px;
+    padding-top:  10px;
+    display: none;
+}
 
 
 /* banner-style */
@@ -165,7 +171,7 @@ img{
    font-size: 1.5rem;
    font-weight: 800;
    color: rgba(32, 32, 32, 1);
-   /* margin-top: 32px; */
+  
    margin-bottom: 32px;
 }
 .card .card-description{
@@ -178,7 +184,7 @@ img{
 .card img{
     height: 136px;
     width: 136px;
-    /* margin: 50px 115px; */
+   
 }
 .card-foot{
     font-weight: 800;
@@ -223,7 +229,7 @@ img{
     margin: 50px 0;
     color:rgba(0, 0, 0, 1);
     font-size: 2.85rem;
-    font-weight 800: 
+    font-weight: 800; 
 }
 .s-card-box{
     justify-content: space-between;
@@ -268,7 +274,7 @@ img{
 }
 .s-card-description{
     color:rgba(102, 102, 102, 1);
-    background-color: ;
+   
     font-size:0,95rem;
     font-weight: 600;
    
@@ -322,23 +328,19 @@ img{
 .f{
     background-color: rgba(1, 172, 253, 1);
 }
+
 .f-box{
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-    
-    padding-top: 100px;
-    padding-bottom: 150px;
-   
-}
-.f-container{
     width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 500px repeat(2,1fr);
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+   
 }
 .f-second{
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 .f-content{
@@ -350,7 +352,7 @@ img{
    
     font-size:2.63rem;
     font-weight: 600;
-    margin-bottom: ;
+   
 }
 .f-description{
     color:rgba(255, 255, 255, 1);
@@ -364,7 +366,7 @@ img{
 }
 .f-second-title{
     color:rgba(255, 255, 255, 1);
-    background-color: ;
+  
     font-size: 1.5rem;
     font-weight: 800;
     
@@ -400,21 +402,71 @@ li{
     font-weight: 800;
     margin-bottom: 30px ;
 }
+.f-first{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hide{
+    display: none;
+}
 
 /* responsive media  */
-/* sakib{
-    color:;
-    background-color: ;
-    font-size:;
-    font-weight: ;
-    margin-bottom: ;
-} */
-/* @media screen  and(max-width:576px){
-   nav
-    .nav-box{
-      
+
+@media screen  and (max-width:576px){
+
+  
+   /* nav */
+   .nav-links, 
+   .nav-title,
+   .nav-btn{
+    display: none;
+   }
+   .bars-3{
+    display: block;
+   
+   }
+   /* banner */
+   .banner-content{
+    width: 100%;
+   }
+   .banner-box{
+    flex-direction: column-reverse;
+   }
+   /* curriculum */
+   .card-box{
+    flex-direction: column;
+   }
+   .card{
+    width: 80%;
+   }
+
+   /* s section */
+   .s-card-1{
+    display: none;
     }
-    .nav-links{
-        display:;
+    .s-card-box{
+        flex-direction: column;
     }
-} */
+   .s-square-card{
+    grid-template-columns: repeat(2,.5fr);
+   
+   }
+  .s-card-2{
+    width: 100%;
+    
+  }
+  /* footer section */
+  .f-box{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .f-first{
+    padding-left: 0;
+  }
+  .f-second{
+    padding-left: 0;
+    padding-top: 60px;
+  }
+  .f-third{
+    padding-top: 60px;
+  }
+}

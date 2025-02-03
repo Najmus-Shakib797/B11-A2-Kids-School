@@ -177,6 +177,7 @@ img {
 .card-box {
     justify-content: space-between;
     margin-bottom: 100px;
+    gap: 30px;
 }
 
 .card-1 {

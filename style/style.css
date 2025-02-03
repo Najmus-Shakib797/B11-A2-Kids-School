@@ -408,7 +408,7 @@ img {
 }
 
 ul>li {
-    /* text-decoration: none; */
+    
     list-style: none;
 }
 
@@ -489,6 +489,10 @@ li {
 
     .story-box {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .story-btn-2{
+        padding: 5px 10px;
+        font-size: 0.7rem;
     }
 
 

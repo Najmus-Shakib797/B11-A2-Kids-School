@@ -10,6 +10,7 @@
 
 body {
     background: linear-gradient(186deg, rgb(234, 222, 222), rgb(211 187 145));
+    
 
 
 }
@@ -40,15 +41,18 @@ img {
     column-gap: 20px;
 }
 
-.s-card-2 {
-    max-height: 300px;
-}
 
 
 /* nav style */
+.logo,
+.nav-links,
+.nav-btn{
+    margin-top: 20px;
+}
+
 .nav-box {
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     gap: 185px;
@@ -182,14 +186,17 @@ img {
 
 .card-1 {
     background: linear-gradient(180deg, rgb(185, 206, 214), rgba(224, 202, 202, 0));
+    border: 2px solid  rgb(185, 206, 214);
 }
 
 .card-2 {
-    background: linear-gradient(180deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg, rgba(255, 244, 220, 1), rgba(240, 238, 238, 0));
+    border: 2px solid rgba(255, 244, 220, 1);
 }
 
 .card-3 {
     background: linear-gradient(180deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+    border: 2px solid  rgba(238, 225, 255, 1);
 }
 
 .card .card-title {

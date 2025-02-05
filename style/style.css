@@ -196,7 +196,7 @@ img {
 
 .card-3 {
     background: linear-gradient(180deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
-    border: 2px solid  rgba(238, 225, 255, 1);
+    border: 2px solid  rgb(226, 214, 242);
 }
 
 .card .card-title {
